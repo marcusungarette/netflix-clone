@@ -1,3 +1,42 @@
+:root {
+  --color-background: #141414;
+  --color-text-primary: #FFFFFF;
+  --color-text-title: #E50914;
+  --color-text-main: #AAA;
+  --color-background-button: #FFFFFF;
+  --color-text-button: #141414;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
-  background-color: blue;
+  background-color: var(--color-background);
+  font-family: 'DM Sans', sans-serif;
+}
+
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo{
+  margin-left: 5px;
+  color: #E50914;
+  font-family: 'Inconsolata', monospace, sans-serif;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px;
+}
+
+header nav a:hover{
+  color: #FFFFFF;
 }
