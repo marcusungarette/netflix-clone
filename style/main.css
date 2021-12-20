@@ -16,6 +16,7 @@
 body{
   background-color: var(--color-background);
   font-family: 'DM Sans', sans-serif;
+  color: #FFFFFF;
 }
 
 header .container{
@@ -39,4 +40,25 @@ header nav a {
 
 header nav a:hover{
   color: #FFFFFF;
+}
+
+/* Main Movie */
+.main-movie{
+  font-size: 16px;
+  background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('../img/capa-house.jpg');
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-movie .description{
+  margin-bottom: 40px;
+}
+
+.title{
+  font-size: 40px;
 }
