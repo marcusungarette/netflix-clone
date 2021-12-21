@@ -29,7 +29,7 @@ header .logo{
   margin-left: 5px;
   color: #E50914;
   font-family: 'Inconsolata', monospace, sans-serif;
-  font-size: 40px;
+  font-size: 56px;
 }
 
 header nav a {
@@ -46,7 +46,7 @@ header nav a:hover{
 .main-movie{
   font-size: 16px;
   background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('../img/capa-house.jpg');
-  height: 400px;
+  height: 500px;
   background-size: cover;
 
   display: flex;
@@ -56,9 +56,31 @@ header nav a:hover{
 }
 
 .main-movie .description{
+  margin-top: 12px;
   margin-bottom: 40px;
 }
 
 .title{
-  font-size: 40px;
+  font-size: 48px;
+  margin-top: 15%;
+}
+
+.button-main-movie{
+  background-color: rgba(0,0,0,.50);
+  border: none;
+  color: #FFFFFF;
+
+  padding: 16px 32px;
+  margin-right: 16px;
+  cursor: pointer;
+  transition: .4s ease all;
+}
+
+.button-main-movie:hover{
+  background-color: #FFFFFF;
+  color: #141414;
+}
+
+.button-main-movie i{
+  margin-right: 4px;
 }
