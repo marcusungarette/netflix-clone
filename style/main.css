@@ -84,3 +84,11 @@ header nav a:hover{
 .button-main-movie i{
   margin-right: 4px;
 }
+
+.container{
+  margin-left: 24px;
+}
+
+.main-movie .container{
+  width: 70%;
+}
